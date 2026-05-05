@@ -1,12 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Fixin App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fixin’ – Plan it. Assign it. Split it.</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #0a84ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #6b7280;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .cta {
+      margin-top: 25px;
+    }
+
+    .btn {
+      background: #0a84ff;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 60px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #0a84ff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding: 30px 0;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    footer a {
+      margin: 0 10px;
+      color: #0a84ff;
+      text-decoration: none;
+    }
+
+  </style>
 </head>
+
 <body>
-    <h1>Fixin App</h1>
-    <p>Coming soon.</p>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="terms.html">Terms and Conditions</a>
+
+  <div class="container">
+
+    <header>
+      <div class="logo">Fixin’</div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Plan Events Without the Chaos</h1>
+      <p>
+        Fixin’ helps you organize events with friends, assign what everyone brings,
+        and split costs fairly — all in one place.
+      </p>
+
+      <div class="cta">
+        <a href="#" class="btn">Join the Waitlist</a>
+      </div>
+    </section>
+
+    <!-- PURPOSE (IMPORTANT FOR APP REVIEW) -->
+    <section class="hero" style="padding-top:40px;">
+      <h2>What is Fixin’?</h2>
+      <p>
+        Fixin’ is a social event coordination app that allows groups to plan gatherings,
+        manage shared responsibilities, and track expenses. Whether you're organizing a
+        BBQ, birthday, or game night, Fixin’ ensures everyone knows what to bring and
+        how much they owe.
+      </p>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+
+      <div class="card">
+        <h3>Create Events</h3>
+        <p>Set time, location, and invite your group in seconds.</p>
+      </div>
+
+      <div class="card">
+        <h3>Assign Items</h3>
+        <p>No more confusion — everyone knows what they’re bringing.</p>
+      </div>
+
+      <div class="card">
+        <h3>Split Costs</h3>
+        <p>Automatically calculate who owes what after the event.</p>
+      </div>
+
+      <div class="card">
+        <h3>Stay Organized</h3>
+        <p>Keep everything in one place instead of messy group chats.</p>
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="hero">
+      <h2>Ready to Fix Your Plans?</h2>
+      <a href="#" class="btn">Get Early Access</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      © 2026 Fixin’  
+      <br /><br />
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </footer>
+
+  </div>
+
 </body>
 </html>
